@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- 这是注释 -->
+<!-- 有且仅有一个根标签 -->
+<students>
+    <student id="001">
+        <name>Tom</name>
+        <age>20</age>
+    </student>
+
+    <student id="002">
+        <name>Jerry</name>
+        <age>21</age>
+        <massage>a &lt; b</massage>
+    </student>
+
+    <note>
+        <txt><![CDATA[
+        function sum() {
+            var x = 0;
+            for (var i = 1; i <= 100; i++) {
+                x += i;
+            }
+            console.log(x);
+        }
+        ]]></txt>
+    </note>
+
+</students>
+
+

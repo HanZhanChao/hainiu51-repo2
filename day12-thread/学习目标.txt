@@ -1,0 +1,32 @@
+1、知道Executors工具类提供的三种线程池的创建方式
+    单线程线程池
+    固定数量线程池
+    可缓存线程池
+
+  掌握线程池的标准创建方式
+    ThreadPoolExecutor
+        核心线程数量
+        最大线程数量
+        空闲线程存活时间值
+        空闲线程存活时间单位
+        阻塞队列
+        创建现场的工厂 Executors.defaultThreadFactory()
+        拒绝策略 -- ThreadPoolExecutor类的四个静态内部类
+
+2、volatile关键字修饰的成员变量 -- 保证可见性和有序性
+
+3、atomic包下的原子类，能够实现原子操作
+    并且知道实现原子操作的原理
+        CAS算法 -- 比较并交换 -- 乐观锁
+        synchronized -- 互斥锁 -- 悲观锁
+
+4、能够说出 ConcurrentHashMap 线程安全的原理
+
+5、知道 CountDownLatch 计数器 一条线程等待其他线程执行完毕，再执行。
+        Semaphore 信号量 限制同时来访问资源的线程数量。
+
+6、掌握Properties配置文件的读取和写入
+        Properties  store
+        Properties  load
+
+

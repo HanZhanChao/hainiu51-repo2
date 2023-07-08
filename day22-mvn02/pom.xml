@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.hainiuxy</groupId>
+    <artifactId>day22-mvn02</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <dependencies>
+        <!-- 项目2依赖了项目1 -->
+        <dependency>
+            <groupId>com.hainiu</groupId>
+            <artifactId>day22-mvn01</artifactId>
+            <version>1.0-RELEASE</version>
+
+            <!-- 排除依赖 主动断开依赖的依赖 -->
+            <exclusions>
+                <exclusion>
+                    <groupId>log4j</groupId>
+                    <artifactId>log4j</artifactId>
+                </exclusion>
+            </exclusions>
+
+        </dependency>
+
+
+    </dependencies>
+
+</project>

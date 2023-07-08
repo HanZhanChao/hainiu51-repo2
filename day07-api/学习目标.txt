@@ -1,0 +1,41 @@
+1、日期相关类
+    java.util.Date 创建对象 -- 当前系统时间
+    掌握日期对象与字符串之间的互换（格式化format和解析parse）
+    SimpleDateFormat
+
+    JDK8新日期类
+    LocalDataTime
+        创建对象 -- now of parse
+        获取日期字段的值 -- 年月日时分秒
+        日期字段偏移指定的量
+        格式化为字符串
+        DateTimeFormatter
+        时间间隔 Period  Duration
+
+2、看懂常见的正则规则，掌握使用
+    String
+        匹配
+        替换
+        拆分
+    Pattern
+    Matcher
+        find()
+        group()
+
+作业：
+1、定义方法实现判断一个字符串是否是回文。
+
+2、获取符合要求的最长的连续子串（可以是英文字母或空格）
+
+3、"11 101 88 22 77 33 44 55"，请将其中的数据按照从小到大的顺序排列，组成一个新的字符串，仍然使用空格分割。
+
+4、实现浮点数的精确四则运算 com.hainiu.apidemo.Demo
+
+5、int[] arr = {1, 6, 0, 8, 0, 0, 4, 5} // 不是0的元素，挪到前面。其他元素相对位置不变
+    定义新数组
+    扩展：在原数组实现（交换）
+
+6、Date类与字符串互换
+
+7、LocalDateTime与字符串互换
+
